@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowProject_livingDoc.Features
+namespace APIAutomationDemo.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -75,10 +75,10 @@ namespace SpecFlowProject_livingDoc.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify User Name from Users Endpoint")]
-        [NUnit.Framework.TestCaseAttribute("users/{userid}", "100", "name", "Ritesh Gandhi", null)]
-        [NUnit.Framework.TestCaseAttribute("users/{userid}", "200", "name", "Dhara Naik JD", null)]
+        [NUnit.Framework.TestCaseAttribute("users/{userid}", "400", "name", "Raj Agarwal", null)]
+        [NUnit.Framework.TestCaseAttribute("users/{userid}", "600", "name", "Inder Khanna", null)]
         [NUnit.Framework.TestCaseAttribute("users/{userid}", "300", "name", "Fr. Adwitiya Acharya", null)]
-        [NUnit.Framework.TestCaseAttribute("users/{userid}", "500", "name", "Blah", null)]
+        [NUnit.Framework.TestCaseAttribute("users/{userid}", "500", "name", "Ekaparnika Trivedi III", null)]
         public virtual void VerifyUserNameFromUsersEndpoint(string endpoint, string user_Id, string actual_User_Name, string expected_User_Name, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;

@@ -9,8 +9,8 @@ Scenario: Verify User Name from Users Endpoint
 
 	Examples: 
 	| endpoint			| user_id	| actual_user_name | expected_user_name		|
-	| users/{userid}	| 100		| name             | Ritesh Gandhi			|
-	| users/{userid}	| 200		| name             | Dhara Naik JD			|
+	| users/{userid}	| 400		| name             | Raj Agarwal			|
+	| users/{userid}	| 600		| name             | Inder Khanna			|
 	| users/{userid}	| 300		| name             | Fr. Adwitiya Acharya   |
-	| users/{userid}	| 500       | name             | Blah                   |  
+	| users/{userid}	| 500       | name             | Ekaparnika Trivedi III |  
 
